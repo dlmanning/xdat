@@ -21,7 +21,7 @@ module.exports = function createComponent (componentFn, childDictionary) {
     }
   }
 
-  abstractChildren.forEach(function (key, value) {
+  abstractChildren.forEach(function (value, key) {
     abstractComponent[key] = value
   })
 
