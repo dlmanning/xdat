@@ -1,0 +1,33 @@
+{
+  "name": "xdat",
+  "version": "1.0.0",
+  "description": "Like react for your data",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlmanning/xdat.git"
+  },
+  "keywords": [
+    "transform",
+    "data",
+    "schema",
+    "react",
+    "virtual-dom"
+  ],
+  "author": "David Manning",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlmanning/xdat/issues"
+  },
+  "homepage": "https://github.com/dlmanning/xdat#readme",
+  "dependencies": {
+    "es6-map": "^0.1.3",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.4.0"
+  }
+}
