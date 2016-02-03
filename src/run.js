@@ -1,6 +1,6 @@
 'use strict'
 
-var objectAssign = require('object-assign');
+var objectAssign = require('object-assign')
 
 module.exports = function run (abstractComponent, props, context) {
   var callToken = {}
