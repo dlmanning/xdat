@@ -23,7 +23,6 @@ function Entity (props, children, context) {
   const entity = copyWithout(props, childKeys)
   const result = { [entity.id]: entity }
 
-
   for (let key of childKeys) {
     const value = props[key]
     const child = children(key)
@@ -79,12 +78,11 @@ function flatMap (arr, lambda) {
 }
 
 function copyWithout (obj, except) {
- except = except || []
- const exclusionSet = new Set(except)
+  except = except || []
+  const exclusionSet = new Set(except)
 
- return filterObject(obj, (key) => !exclusionSet.has(key))
+  return filterObject(obj, (key) => !exclusionSet.has(key))
 }
-
 
 function filterObject (obj, cb) {
   const copy = {}

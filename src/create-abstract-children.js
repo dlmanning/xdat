@@ -1,7 +1,7 @@
 'use strict'
 
 var Map = require('es6-map')
-var objectAssign = require('object-assign');
+var objectAssign = require('object-assign')
 var getEntries = require('./util/get-entries')
 var isObject = require('./util/is-object')
 

@@ -10,7 +10,7 @@ module.exports = function getEntries (obj) {
   var allOwnKeys =
     Object.keys(obj).concat(Object.getOwnPropertySymbols(obj))
 
-  return allOwnKeys.map(function(key) {
+  return allOwnKeys.map(function (key) {
     return [key, obj[key]]
   })
 }
